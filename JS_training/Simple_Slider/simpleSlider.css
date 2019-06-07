@@ -1,0 +1,21 @@
+#slider {
+  width: 384px;
+  heiht: 128px;
+  border: 5px solid green;
+  margin: 50px auto;
+}
+#polosa {
+  background: red;
+  width: 896px;
+  position: relative;
+}
+#polosa img {
+  floar: left;
+  width: 100px;
+  height: 128px;
+}
+#polosa::after {
+  content: "";
+  display: block;
+  clear: both;
+}
