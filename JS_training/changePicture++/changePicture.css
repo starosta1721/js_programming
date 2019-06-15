@@ -1,0 +1,15 @@
+#slide {
+  width: 375px;
+  height: 800px;
+  border: 3px solid green;
+  position: relative;
+  overflow: hidden;
+}
+#one, #two {
+  width: 600px;
+  height: 800px;
+  position: absolute;
+  left: 0;
+  top:0;
+  overflow: hidden;
+}

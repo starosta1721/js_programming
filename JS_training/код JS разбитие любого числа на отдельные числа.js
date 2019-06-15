@@ -1,10 +1,16 @@
-var n, tmp;
+function max(arr) {
+	var arrMax, temp = arr[0];
+	for (i = 0; i < arr.length; i++) {
+		if (arr[i] > temp) {
+			arrMax = arr[i];
+			temp = arr[i];
+		} else {
+			arrMax = temp;
+			temp = arr[i];
+		};
 
-n = +prompt("","");
+	};
+	console.log(arrMax);
+};
 
-while (n != 0) {
-	tmp = n % 10;
-	console.log (tmp);
-	n = (n - tmp) / 10;
-	}
-
+max([234, 0, 123, 456, -3, -100, 1234]);
